@@ -3,22 +3,20 @@
   <name>kobuki_capabilities</name>
   <version>0.7.6</version>
   <description>Kobuki's capabilities</description>
-  
+
   <maintainer email="marcus.liebhardt@yujinrobot.com">Marcus Liebhardt</maintainer>
   <author>Marcus Liebhardt</author>
-  
+
   <license>BSD</license>
-  
+
   <url type="website">http://ros.org/wiki/kobuki_capabilities</url>
   <url type="repository">https://github.com/yujinrobot/kobuki</url>
   <url type="bugtracker">https://github.com/yujinrobot/kobuki/issues</url>
-  
+
   <buildtool_depend>catkin</buildtool_depend>
-  
+
   <run_depend>kobuki_node</run_depend>
   <run_depend>nodelet</run_depend>
-  <run_depend>rocon_app_manager</run_depend>
-  <run_depend>rocon_apps</run_depend>
   <run_depend>std_capabilities</run_depend>
 
   <export>
